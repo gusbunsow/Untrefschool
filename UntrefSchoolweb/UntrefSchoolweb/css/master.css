@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+font-family: poppins;
+font-style: normal;
+font-weight: lighter;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img {
+    width: 50%;
+}
+
+.ul {
+    list-style-type: none;
+}
+
+.a {
+    text-decoration: none;
+    color: #181823;
+}
+
+.li {
+    font-size: 15px;
+}
+
+.h1 {
+    font-size: 25px;
+    color: #181823;
+    border-bottom: 1px solid;
+    box-shadow: inset 0 -1 #181823;
+}
+
+.h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #181823;
+}
+
+.h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#logo{
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+#menu{
+    text-align: right;
+    font-family: poppins;
+}
+
+#body{
+    background-color: #EFF5F5;
+    font-family: poppins;
+}
+
+.header {
+  background-color: #EFF5F5;
+}
+
+#tituloQuienesSomos {
+    height: 50px;
+    padding: 10px;
+    margin: 50px;
+ }
+ #seccionSomos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+ }
+
+ #fotoSomos {
+    position: absolute;
+    top: auto;
+    left: 5%;
+    width:500px;
+ }
+
+#loremSomos {
+    position: relative;
+    top: 100px;
+    right: 50px;
+    bottom: 30px;
+    text-align: justify;
+}
+
+#Elegirnos{
+    height: 50px;
+    padding: 10px;
+    margin: 50px;
+ }
+ #seccionElegirnos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+ }
+ #fotoElegirnos {
+    position: relative;
+    right: -90px;
+    bottom: 30px;
+    width:500px;
+    height:300px;
+ }
+ #loremElegirnos {
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+    text-align: justify;
+
+@media (min-width: 768px) {
+
+
+#encabezado{
+        display: grid;
+        grid-template-columns: 1fr 2fr; /*Medidas: px em rem % fr*/
+        align-items: center;
+    }
+    #menu{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    #opcionesIzquierdo{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    #opcionesDerecho{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+#productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    /*=== Aplicando CSS a la Galería===*/
+    section#galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+#tituloPropuesta {
+    height: 35px;
+    padding: 10px;
+    margin: 10px;
+    }
+#seccionPropuesta {
+    height: 1800px;
+    }
+
+.aspecto {
+        font-size: 20px;
+        font-weight: bolder;
+        margin: 10px;
+    }
+
+#seccionPropuesta {
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+       height: 750px;
+       padding: 10px;
+       margin: 25px;
+       text-align: center;
+    }
+
+.fotoPropuesta {
+       width:250px;
+       height:250px;
+       border-radius: 150px;
+       border: 10px
+       scale: 50%;
+
+    }
+
+#tituloNoticias {
+    height: 35px;
+    padding: 10px;
+    margin: 10px;
+    }
+
+#noticias {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    padding: 10px;
+    margin: 5px;
+    }
+    .noticia {
+    padding: 30px;
+    }
+
+
+#footer{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 0.5fr;
+        justify-content: centers;
+        align-items: center;
+        background-color:#00425A;
+        color:#EFF5F5;
+    }
+
+#redessociales{
+            background-color: #00425A;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+        }
